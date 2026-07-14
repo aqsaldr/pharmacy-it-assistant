@@ -1,0 +1,30 @@
+PANDUAN TROUBLESHOOTING PERMASALAHAN BARCODE SCANNER
+APOTEKPOS V3.5
+======================================================================
+
+DESKRIPSI MASALAH:
+Barcode scanner menyala (terdapat sinar laser berwarna merah), namun saat disorot ke kemasan obat, angka atau kode tidak muncul pada aplikasi Point of Sale (POS).
+
+LANGKAH-LANGKAH SOLUSI & PENANGANAN:
+
+1. Pastikan Kursor Aktif
+   Pastikan kursor (garis berkedip) pada layar komputer kasir sudah 
+   aktif dan berada tepat di dalam kolom "Kode Obat / Barcode" pada 
+   aplikasi ApotekPOS sebelum melakukan pemindaian.
+
+2. Bersihkan Kaca Scanner
+   Bersihkan bagian kaca depan barcode scanner menggunakan kain 
+   microfiber atau tisu kering. Debu atau kotoran yang menempel pada 
+   kaca dapat menghalangi akurasi pembacaan sinar laser.
+
+3. Periksa Kondisi Barcode Fisik
+   Pastikan label barcode pada kemasan obat tidak dalam kondisi 
+   terlipat, robek, basah, atau pudar. Jika fisik barcode mengalami 
+   kerusakan, masukkan/ketikkan angka barcode secara manual menggunakan 
+   keyboard.
+
+4. Reset Koneksi Scanner (Hardware Reset)
+   Cabut kabel USB barcode scanner dari port komputer. Diamkan selama 
+   kurang lebih 10 detik, kemudian colokkan kembali ke port USB komputer. 
+   Tunggu hingga terdengar bunyi "Bip" yang menandakan scanner telah 
+   berhasil di-reset dan siap digunakan kembali.

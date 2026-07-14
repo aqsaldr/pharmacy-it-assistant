@@ -1,0 +1,23 @@
+DOKUMEN: STANDAR OPERASIONAL PROSEDUR (SOP) IT APOTEK
+VERSI: 2.0
+TERAKHIR DIPERBARUI: 15 Januari 2026
+
+1. PROSEDUR LOGIN DAN BUKA SHIFT (START OF DAY)
+- Nyalakan komputer kasir (POS) minimal 15 menit sebelum apotek buka.
+- Pastikan kabel LAN terhubung dan ikon jaringan di sudut kanan bawah layar menunjukkan status "Connected".
+- Buka aplikasi ApotekPOS. Masukkan Username dan Password sesuai dengan ID Karyawan masing-masing. Jangan pernah berbagi password.
+- Lakukan sinkronisasi data awal dengan menekan tombol "Sync Data" di menu utama.
+
+2. PROSEDUR TUTUP SHIFT DAN BACKUP (END OF DAY)
+- Pastikan semua transaksi hari ini sudah berstatus "Selesai".
+- Masuk ke menu "Laporan" -> klik "Tutup Shift".
+- Sistem akan secara otomatis mengunggah data penjualan ke server pusat (Cloud). Pastikan internet stabil.
+- Jika muncul notifikasi "Upload Gagal", periksa koneksi internet, lalu tekan tombol "Retry Backup".
+- Matikan komputer melalui menu Start -> Shut Down (Jangan mematikan langsung dari tombol power CPU).
+
+3. PENANGANAN GANGGUAN JARINGAN INTERNET (OFFLINE MODE)
+- Jika sistem POS menampilkan pesan "Koneksi Terputus - Beralih ke Mode Offline":
+  a. Cek lampu indikator pada Router/Modem Indihome/Biznet di ruang belakang.
+  b. Jika lampu "LOS" berkedip merah, berarti ada gangguan dari pusat (ISP). Hubungi vendor internet segera.
+  c. Jika lampu normal, matikan router dengan mencabut kabel power selama 30 detik, lalu colokkan kembali (Restart Router).
+  d. Sistem POS akan tetap bisa digunakan untuk transaksi kasir dalam Mode Offline. Data akan otomatis terkirim saat internet kembali online.

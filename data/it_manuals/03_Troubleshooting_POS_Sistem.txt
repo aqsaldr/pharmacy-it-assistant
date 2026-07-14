@@ -1,0 +1,25 @@
+DOKUMEN: PENANGANAN ERROR APLIKASI POINT OF SALE (POS) & HARDWARE KASIR
+MODUL: APOTEK-POS V3.5
+
+1. ERROR KODE: ERR-500 (SERVER TIMEOUT) ATAU APLIKASI FREEZE / HANG
+- Deskripsi: Aplikasi tiba-tiba tidak bisa diklik, layar memutih, atau muncul pop-up "ERR-500 Server Timeout".
+- Solusi:
+  a. Jangan panik. Transaksi terakhir yang belum dicetak struknya otomatis tersimpan di cache.
+  b. Tutup paksa aplikasi: Tekan CTRL + ALT + DELETE di keyboard, pilih "Task Manager".
+  c. Cari aplikasi "ApotekPOS.exe", klik kanan, lalu pilih "End Task".
+  d. Buka kembali aplikasi POS. Cek riwayat transaksi terakhir di menu "Histori Penjualan" untuk memastikan apakah transaksi terakhir sudah masuk atau belum.
+
+2. TROUBLESHOOTING BARCODE SCANNER TIDAK TERBACA
+- Deskripsi: Barcode scanner menyala (ada sinar laser merah), tapi saat disorot ke obat, angka tidak muncul di aplikasi POS.
+- Solusi:
+  a. Pastikan kursor (garis berkedip) di layar komputer sudah aktif dan berada di dalam kolom "Kode Obat / Barcode" pada aplikasi.
+  b. Bersihkan kaca depan scanner dengan kain microfiber atau tisu kering, debu bisa menghalangi pembacaan.
+  c. Pastikan barcode pada kemasan obat tidak terlipat, robek, atau pudar. Jika rusak, ketikkan angka barcode secara manual di keyboard.
+  d. Reset Scanner: Cabut kabel USB scanner dari komputer, diamkan 10 detik, lalu colokkan kembali. Tunggu sampai terdengar bunyi "Bip" tanda scanner siap.
+
+3. STOK OBAT DI APLIKASI TIDAK SESUAI DENGAN FISIK (MINUS)
+- Deskripsi: Saat kasir melakukan scan, aplikasi menolak transaksi dengan pesan "Stok Tidak Mencukupi", padahal barang fisik ada.
+- Solusi Cepat untuk Kasir:
+  a. Konfirmasi dengan apoteker/kepala toko apakah ada retur barang atau penerimaan barang yang belum di-input ke sistem.
+  b. Gunakan fitur "Override Transaksi" khusus untuk keadaan darurat agar pasien tidak menunggu lama (membutuhkan PIN Otorisasi dari Kepala Apotek).
+  c. Segera buat tiket IT ke tim backend (melalui menu Helpdesk) agar tim inventory pusat melakukan penyesuaian data (Stock Opname).

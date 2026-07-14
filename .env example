@@ -1,0 +1,12 @@
+# ==========================================
+# PENGATURAN ENVIRONMENT VARIABLES
+# ==========================================
+# Ganti nilai di bawah ini dengan API Key Anda sendiri.
+# Jangan pernah mem-push file .env asli Anda ke GitHub!
+
+# Kunci API OpenAI untuk menjalankan LLM dan Vector Embeddings
+GROQ_API_KEY=gsk_masukkan_api_key_groq_anda_di_sini
+
+# (Opsional) Pengaturan tambahan jika nanti proyek dikembangkan
+# DEBUG_MODE=True
+# MAX_TOKENS=1000

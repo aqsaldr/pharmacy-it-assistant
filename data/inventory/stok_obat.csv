@@ -1,0 +1,41 @@
+ID_Obat,Nama_Obat,Kategori,Bentuk_Sediaan,Stok,Harga_Satuan,Expired_Date,Lokasi_Rak
+MED001,Paracetamol 500mg,Bebas,Tablet,150,5000,2027-10-15,A1
+MED002,Amoxicillin 500mg,Keras,Kapsul,85,12000,2028-02-20,B1
+MED003,Ibuprofen 400mg,Bebas Terbatas,Tablet,120,8000,2026-11-10,A1
+MED004,Cetirizine 10mg,Bebas Terbatas,Tablet,90,15000,2027-05-05,A2
+MED005,OBH Combi Plus 100ml,Bebas,Sirup,45,22000,2026-12-01,C1
+MED006,Sanmol Sirup 60ml,Bebas,Sirup,30,18000,2027-08-12,C1
+MED007,Omeprazole 20mg,Keras,Kapsul,110,25000,2028-01-15,B2
+MED008,Lansoprazole 30mg,Keras,Kapsul,60,35000,2027-11-20,B2
+MED009,Mylanta Cair 50ml,Bebas,Sirup,25,16000,2026-09-30,C2
+MED010,Promag Tablet,Bebas,Tablet,200,9000,2028-04-10,A3
+MED011,Antangin JRG,Bebas,Cair,300,3500,2027-12-25,A4
+MED012,Tolak Angin Cair,Bebas,Cair,250,4000,2028-01-05,A4
+MED013,Acyclovir 400mg,Keras,Tablet,50,45000,2027-06-15,B3
+MED014,Acyclovir Salep 5%,Keras,Salep,20,15000,2026-08-20,D1
+MED015,Hydrocortisone 2.5%,Keras,Salep,35,12000,2027-02-28,D1
+MED016,Betadine Solution 15ml,Bebas,Cair,80,11000,2028-05-15,E1
+MED017,Rivanol 100ml,Bebas,Cair,40,6000,2027-03-10,E1
+MED018,Hansaplast Plester,Bebas,Plester,500,1000,2029-01-01,E2
+MED019,Neurobion Forte,Bebas,Tablet,150,40000,2027-09-12,F1
+MED020,Enervon-C Multivitamin,Bebas,Tablet,200,35000,2028-03-22,F1
+MED021,Sangobion Kapsul,Bebas,Kapsul,100,28000,2027-07-30,F2
+MED022,Imboost Force,Bebas,Tablet,75,75000,2026-10-15,F2
+MED023,Captopril 25mg,Keras,Tablet,180,15000,2028-02-11,B4
+MED024,Amlodipine 5mg,Keras,Tablet,220,20000,2027-11-05,B4
+MED025,Metformin 500mg,Keras,Tablet,250,18000,2028-06-14,B5
+MED026,Glibenclamide 5mg,Keras,Tablet,90,12000,2027-04-20,B5
+MED027,Simvastatin 20mg,Keras,Tablet,130,25000,2026-12-10,B6
+MED028,Atorvastatin 20mg,Keras,Tablet,65,45000,2028-08-30,B6
+MED029,Salbutamol 2mg,Keras,Tablet,110,10000,2027-01-25,B7
+MED030,Ventolin Inhaler,Keras,Inhaler,15,135000,2026-07-22,G1
+MED031,Panadol Biru 500mg,Bebas,Tablet,120,12000,2028-02-28,A1
+MED032,Bodrex Migra,Bebas,Tablet,85,9000,2027-06-16,A2
+MED033,Diatabs,Bebas Terbatas,Tablet,60,15000,2026-08-11,A3
+MED034,Oralit 200ml,Bebas,Serbuk,100,2000,2027-11-20,A3
+MED035,Microlax Enema,Bebas Terbatas,Gel,25,25000,2028-01-10,D2
+MED036,Dulcolax 5mg,Bebas Terbatas,Tablet,70,22000,2027-09-05,A3
+MED037,Cefadroxil 500mg,Keras,Kapsul,0,25000,2026-03-10,B1
+MED038,Diazepam 2mg,Psikotropika,Tablet,30,50000,2027-10-30,Lemari_Khusus
+MED039,Codein 15mg,Narkotika,Tablet,20,75000,2028-05-15,Lemari_Khusus
+MED040,Bisolvon Extra 60ml,Bebas Terbatas,Sirup,12,45000,2026-12-20,C1

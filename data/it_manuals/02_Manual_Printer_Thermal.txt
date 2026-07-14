@@ -1,0 +1,26 @@
+DOKUMEN: MANUAL DAN TROUBLESHOOTING PRINTER THERMAL (KASIR)
+MODEL: THM-80MM AUTO-CUTTER
+
+1. CARA MEMASANG KERTAS STRUK (ROLL)
+- Tekan tombol pembuka (Open) di sisi kanan printer untuk membuka penutup atas.
+- Masukkan gulungan kertas thermal ukuran 80mm.
+- PASTIKAN arah kertas yang keluar menghadap ke ATAS (sisi licin/thermal menghadap ke head printer).
+- Tarik ujung kertas sedikit keluar dari printer, lalu tutup kembali penutup atas sampai terdengar bunyi "Klik".
+
+2. SOLUSI ERROR: PRINTER MACET (PAPER JAM)
+- Indikator: Lampu merah berkedip cepat dan terdengar bunyi bip 3 kali. Printer tidak mau mencetak.
+- Solusi:
+  a. Matikan tombol power printer yang terletak di sisi kiri bawah.
+  b. Buka penutup atas printer.
+  c. Tarik perlahan kertas yang tersangkut. Jangan menarik paksa jika kertas tersangkut di area pisau pemotong (cutter).
+  d. Jika pisau pemotong macet dan penutup tidak bisa dibuka, putar roda gir (gear) kecil di bawah penutup depan printer secara manual hingga pisau kembali ke posisi awal.
+  e. Rapikan ujung kertas, tutup kembali, dan nyalakan printer.
+
+3. SOLUSI ERROR: HASIL CETAKAN KOSONG / BLANK
+- Penyebab utama: Kertas thermal terbalik.
+- Solusi: Buka penutup printer, balik arah gulungan kertas. Ingat: Sisi yang bisa dicetak (lapisan bahan kimia) adalah sisi luar gulungan yang terasa lebih licin jika digores dengan kuku.
+
+4. SOLUSI ERROR: PRINTER TIDAK MERESPON SAMA SEKALI
+- Cek lampu indikator power (warna biru/hijau). Jika mati, pastikan adaptor listrik tercolok sempurna ke stopkontak.
+- Jika lampu menyala tapi tidak mencetak dari komputer, cek kabel USB. Cabut dan colokkan kembali ke port USB lain di komputer kasir.
+- Restart "Print Spooler" di Windows: Ketik 'Services' di Start menu -> cari 'Print Spooler' -> klik kanan -> Restart.
